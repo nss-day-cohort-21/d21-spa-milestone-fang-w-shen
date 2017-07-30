@@ -1,0 +1,29 @@
+{
+  "cars": [
+    {
+      "image":"Nissan.png",
+      "make": "Nissan",
+      "model": "Altima",
+      "year": "2002",
+      "price": "8,999",
+      "description": "This is an immaculate 2002 Nissan Altima with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "image":"toyota.png",
+      "make": "Toyota",
+      "model": "Rav",
+      "year": "2004",
+      "price": "12,999",
+      "description": "This is an immaculate 2004 Toyota Rav with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+
+      "image":"lexus.png",
+      "make": "Lexus",
+      "model": "G-7",
+      "year": "2006",
+      "price": "20,999",
+      "description": "This is an immaculate 2006 Lexus G-7 with only 25000 miles on it. Leather seats, power everything."
+    }
+  ]
+}
