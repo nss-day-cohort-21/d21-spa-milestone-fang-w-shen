@@ -7,26 +7,24 @@ var CarLot = (function (globalScopeCarLot) {
 
   // Start building the Object that will be attached
   // to the CarLot.Inventory namespace
-  var inventory = Object.create(null);
-  inventory.loadInventory= function () {
+  let inventory = {};
+  inventory.loadInventory= function (a) {
       var inventoryLoader = new XMLHttpRequest();
       inventoryLoader.open("GET","inventory.json");
       inventoryLoader.send();
       inventoryLoader.addEventListener("load", function () {
         // Add each car to the private _car_inventory array
-        var carlist = JSON.parse(inventoryLoader.responseText);
+        _car_inventory = JSON.parse(inventoryLoader.responseText);
 
-        console.log("", carlist);
-
-        console.log("", 1);
-        return carlist;
+        return a(_car_inventory); 
+            
+        
         });
-      Inventory.loadInventory();
+    
     }
 
 
-  
-  console.log("", inventory);
+
     
   globalScopeCarLot.Inventory = inventory;
   return globalScopeCarLot;

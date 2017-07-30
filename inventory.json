@@ -1,25 +1,29 @@
 {
   "cars": [
     {
+      "image":"Nissan.png",
       "make": "Nissan",
-      "model": "Rogue",
-      "year": "2006",
-      "price": "8999",
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "model": "Altima",
+      "year": "2002",
+      "price": "8,999",
+      "description": "This is an immaculate 2002 Nissan Altima with only 25000 miles on it. Leather seats, power everything."
     },
     {
+      "image":"toyota.png",
       "make": "Toyota",
-      "model": "Rogue",
-      "year": "2006",
-      "price": "8999",
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "model": "Rav",
+      "year": "2004",
+      "price": "12,999",
+      "description": "This is an immaculate 2004 Toyota Rav with only 25000 miles on it. Leather seats, power everything."
     },
     {
+
+      "image":"lexus.png",
       "make": "Lexus",
-      "model": "Rogue",
+      "model": "G-7",
       "year": "2006",
-      "price": "8999",
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "price": "20,999",
+      "description": "This is an immaculate 2006 Lexus G-7 with only 25000 miles on it. Leather seats, power everything."
     }
   ]
 }
